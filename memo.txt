@@ -30,3 +30,6 @@ Description : affiche l'historique des commits réalisés. Il est souvent néces
 
 commande : git remote add origin
 Description : configure le projet pour l'associer à un dépôt git sur github. Le dépôt distant est appelé "origin" (c'est une convention). Cette configuration est à faire une fois par projet git, et seulement si l'on souhaite le partager/sauvegarder sur github
+
+commande : git push -u origin master
+Description: configure notre projet pour qu'il s'envoie par défaut sur le dépôt origin et sur sa branche master. Cette commande n'est à entrer qu'une fois par projet. Cette commande nécessite d'avoir ajouté un dépôt avec la commande "git remote"
