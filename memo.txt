@@ -17,3 +17,10 @@ Les modifications seront passées de la zone "rouge" (unstagged), qui ne sont pa
 commande : git commid -m "message"
 
 Description : la commande d'enregistrement des modifications. Une fois les modifications ajoutées avec "git add .", la commande commit permet d'enregistrer définitivement nos modifications en y attachant un message personnalisé, censé décrire les modifications effectuées.
+
+commande : git config user.name <nom>
+
+description : configure le nom utilisé pour signer
+
+commande : git config user.email <email>
+Description : configure l'adresse email utilisée pour signer les paquets
